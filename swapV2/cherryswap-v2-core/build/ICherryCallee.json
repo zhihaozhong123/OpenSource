@@ -1,0 +1,425 @@
+{
+  "contractName": "ICherryCallee",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount0",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount1",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "cherryCall",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"cherryCall\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/ICherryCallee.sol\":\"ICherryCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/ICherryCallee.sol\":{\"keccak256\":\"0x94087dfa1db86fcbf68ca53c922b7fe76f0540a5bbed15742b76e020a50a488a\",\"urls\":[\"bzz-raw://9e445e17726445c5efd8a7198c4b5e401d2a7287138df46c8f08ea1aa86ecc40\",\"dweb:/ipfs/QmZZkrp1KU9ayRCQyd7MUEpiYF7ZhT9y3kpfZdjyEqm3iN\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity >=0.5.0;\n\ninterface ICherryCallee {\n    function cherryCall(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}",
+  "sourcePath": "D:\\DipoleSwap\\dipoleswapnet\\dipole-swap-core\\contracts\\interfaces\\ICherryCallee.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/ICherryCallee.sol",
+    "exportedSymbols": {
+      "ICherryCallee": [
+        1690
+      ]
+    },
+    "id": 1691,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1678,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:8"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 1690,
+        "linearizedBaseContracts": [
+          1690
+        ],
+        "name": "ICherryCallee",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 1689,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "cherryCall",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1687,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1680,
+                  "name": "sender",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1689,
+                  "src": "76:14:8",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1679,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "76:7:8",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1682,
+                  "name": "amount0",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1689,
+                  "src": "92:12:8",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1681,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "92:4:8",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1684,
+                  "name": "amount1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1689,
+                  "src": "106:12:8",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1683,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "106:4:8",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1686,
+                  "name": "data",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1689,
+                  "src": "120:19:8",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 1685,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "120:5:8",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "75:65:8"
+            },
+            "returnParameters": {
+              "id": 1688,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "149:0:8"
+            },
+            "scope": 1690,
+            "src": "56:94:8",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1691,
+        "src": "26:126:8"
+      }
+    ],
+    "src": "0:152:8"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/interfaces/ICherryCallee.sol",
+      "exportedSymbols": {
+        "ICherryCallee": [
+          1690
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 1678,
+        "name": "PragmaDirective",
+        "src": "0:24:8"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            1690
+          ],
+          "name": "ICherryCallee",
+          "scope": 1691
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "documentation": null,
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "cherryCall",
+              "scope": 1690,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "sender",
+                      "scope": 1689,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 1679,
+                        "name": "ElementaryTypeName",
+                        "src": "76:7:8"
+                      }
+                    ],
+                    "id": 1680,
+                    "name": "VariableDeclaration",
+                    "src": "76:14:8"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "amount0",
+                      "scope": 1689,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint",
+                          "type": "uint256"
+                        },
+                        "id": 1681,
+                        "name": "ElementaryTypeName",
+                        "src": "92:4:8"
+                      }
+                    ],
+                    "id": 1682,
+                    "name": "VariableDeclaration",
+                    "src": "92:12:8"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "amount1",
+                      "scope": 1689,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint",
+                          "type": "uint256"
+                        },
+                        "id": 1683,
+                        "name": "ElementaryTypeName",
+                        "src": "106:4:8"
+                      }
+                    ],
+                    "id": 1684,
+                    "name": "VariableDeclaration",
+                    "src": "106:12:8"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "data",
+                      "scope": 1689,
+                      "stateVariable": false,
+                      "storageLocation": "calldata",
+                      "type": "bytes",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes",
+                          "type": "bytes"
+                        },
+                        "id": 1685,
+                        "name": "ElementaryTypeName",
+                        "src": "120:5:8"
+                      }
+                    ],
+                    "id": 1686,
+                    "name": "VariableDeclaration",
+                    "src": "120:19:8"
+                  }
+                ],
+                "id": 1687,
+                "name": "ParameterList",
+                "src": "75:65:8"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 1688,
+                "name": "ParameterList",
+                "src": "149:0:8"
+              }
+            ],
+            "id": 1689,
+            "name": "FunctionDefinition",
+            "src": "56:94:8"
+          }
+        ],
+        "id": 1690,
+        "name": "ContractDefinition",
+        "src": "26:126:8"
+      }
+    ],
+    "id": 1691,
+    "name": "SourceUnit",
+    "src": "0:152:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-10-16T09:08:22.046Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
